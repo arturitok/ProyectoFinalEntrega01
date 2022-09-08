@@ -11,5 +11,4 @@ const admin = rol => {
         }
     }
 }
-
 module.exports = admin;

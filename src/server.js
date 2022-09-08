@@ -25,5 +25,4 @@ app.all('*', (req, res) => {
         descripcion: `Ruta: ${req.originalUrl} Metodo: ${req.method} no implementada`
     })
 })
-
 app.listen(PORT, ()=> console.log(`Server running on port: http://localhost:${PORT}`));
